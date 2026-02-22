@@ -18,3 +18,4 @@ export * from './PremiumFeatures';
 export * from './Branding';
 export * from './ContactCTA';
 export * from './Footer';
+export * from './ScrollToTop';

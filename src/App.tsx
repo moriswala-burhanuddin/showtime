@@ -1,4 +1,4 @@
-import { Navbar, Hero, WhyChooseUs, Reviews, PhotoBooths, Wedding, Party, Facts, GoogleReviews, OurWorkGallery, CoverageMap, FAQs, QuoteRequest, PremiumFeatures, Branding, Footer } from './components';
+import { Navbar, Hero, WhyChooseUs, Reviews, PhotoBooths, Wedding, Party, Facts, GoogleReviews, OurWorkGallery, CoverageMap, FAQs, QuoteRequest, PremiumFeatures, Branding, Footer, ScrollToTop } from './components';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
       <QuoteRequest />
       {/* Additional sections like 'Our Work' could go here in a larger build */}
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }
